@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeLayout">
+
+    <TextView
+        android:id="@+id/tv_kiri_atas"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/hijau_bawah"
+        android:layout_width="@dimen/_190dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/tv_kiri_atas"
+        android:background="@color/ijo" />
+    <TextView
+        android:id="@+id/bawahnya"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_marginStart="@dimen/_190dp"
+        android:layout_below="@id/hijau_bawah"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/tv_kanan_atas"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_alignParentEnd="true"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/tv_oren"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_72dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:layout_below="@id/bawahnya"
+        android:background="@color/orange" />
+    <TextView
+        android:id="@+id/sebelah_oren"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/bawahnya"
+        android:layout_marginStart="@dimen/_15dp"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/tv_yello"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_marginStart="@dimen/_70dp"
+        android:layout_below="@id/sebelah_oren"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/tv_hijau"
+        android:layout_width="@dimen/_200dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/sebelah_oren"
+        android:layout_toEndOf="@id/tv_yello"
+        android:background="@color/ijo" />
+    <TextView
+        android:id="@+id/kuning"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/tv_yello"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_toEndOf="@+id/kuning"
+        android:layout_below="@id/tv_hijau"
+        android:layout_marginStart="@dimen/_120dp"
+        android:background="@color/biru" />
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/kuning"
+        android:layout_marginStart="@dimen/_150dp"
+        android:background="@color/merah" />
+    <TextView
+        android:id="@+id/oren"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/red"
+        android:layout_marginTop="@dimen/_5dp"
+        android:background="@color/orange" />
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_70dp"
+        android:layout_below="@id/red"
+        android:layout_marginTop="@dimen/_15dp"
+        android:layout_marginStart="@dimen/_120dp"
+        android:layout_toEndOf="@id/oren"
+        android:background="@color/kuning" />
+    <TextView
+        android:id="@+id/orange"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/orene"
+        android:layout_marginTop="@dimen/_5dp"
+        android:layout_marginStart="@dimen/_150dp"
+        android:background="@color/orange" />
+    <TextView
+        android:id="@+id/orene"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/red"
+        android:layout_marginTop="@dimen/_10dp"
+        android:background="@color/orange" />
+    <TextView
+        android:id="@+id/orenne"
+        android:layout_width="@dimen/_152dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/orange"
+        android:background="@color/orange" />
+    <TextView
+        android:id="@+id/oren_last"
+        android:layout_width="@dimen/_150dp"
+        android:layout_height="@dimen/_71dp"
+        android:layout_below="@id/orange"
+        android:layout_toEndOf="@id/orenne"
+        android:layout_marginStart="@dimen/_120dp"
+        android:background="@color/orange" />
+
+
+</RelativeLayout>
